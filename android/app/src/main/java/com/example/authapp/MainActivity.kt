@@ -86,6 +86,7 @@ fun AuthScreen() {
     var currentUserEmail by remember { mutableStateOf<String?>(null) }
     var authStep by remember { mutableStateOf(0) }
     var totpSecret by remember { mutableStateOf<String?>(null) }
+    var totpUrl by remember { mutableStateOf<String?>(null) }
     var verifyCode by remember { mutableStateOf("") }
     var isLoading by remember { mutableStateOf(false) }
     
@@ -125,6 +126,7 @@ fun AuthScreen() {
                                 log("Generating TOTP...")
                                 val genRes = RetrofitClient.api.generateTotp(response.email)
                                 totpSecret = genRes.secret
+                                totpUrl = genRes.otpauth_url
                                 authStep = 1
                             }
                         }
@@ -211,31 +213,52 @@ fun AuthScreen() {
                     Text("Bağlantıyı Test Et (Authsuz)")
                 }
             }
-            1 -> {
-                Text("Hoşgeldin, $currentUserEmail")
-                if (totpSecret != null) {
-                    Text("Seed: $totpSecret", style = MaterialTheme.typography.headlineSmall)
-                    Button(onClick = {
-                         val clipboard = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
-                         val clip = ClipData.newPlainText("TOTP Secret", totpSecret)
-                         clipboard.setPrimaryClip(clip)
-                         log("Seed kopyalando")
-                    }) { Text("Kopyala") }
-                }
-                
-                TextField(value = verifyCode, onValueChange = { verifyCode = it }, label = { Text("6 Haneli Kod") })
-                Button(onClick = {
-                    scope.launch {
-                        try {
-                            log("Verifying code...")
-                            val res = RetrofitClient.api.verifyTotp(VerifyRequest(currentUserEmail!!, verifyCode))
-                            if (res.status == "verified") authStep = 2
-                        } catch (e: Exception) {
-                            log("Verify Failed: ${e.message}")
+                1 -> {
+                    Text("Hoşgeldin, $currentUserEmail")
+                    if (totpSecret != null) {
+                        Text("Seed: $totpSecret", style = MaterialTheme.typography.headlineSmall)
+                        
+                        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                            Button(onClick = {
+                                 val clipboard = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+                                 val clip = ClipData.newPlainText("TOTP Secret", totpSecret)
+                                 clipboard.setPrimaryClip(clip)
+                                 log("Seed kopyalandı")
+                                 Toast.makeText(context, "Kopyalandı!", Toast.LENGTH_SHORT).show()
+                            }) { Text("Kopyala") }
+
+                            // New Auto-Open Button
+                            if (totpUrl != null) {
+                                Button(onClick = {
+                                    try {
+                                        val intent = android.content.Intent(android.content.Intent.ACTION_VIEW, android.net.Uri.parse(totpUrl))
+                                        context.startActivity(intent)
+                                        log("Authenticator açılıyor...")
+                                    } catch (e: Exception) {
+                                        log("App açılamadı: ${e.message}")
+                                        Toast.makeText(context, "Authenticator uygulaması bulunamadı", Toast.LENGTH_LONG).show()
+                                    }
+                                }, colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.tertiary)) { 
+                                    Text("Authenticator'a Ekle 🚀") 
+                                }
+                            }
                         }
                     }
-                }) { Text("Doğrula") }
-            }
+                    
+                    Spacer(modifier = Modifier.height(16.dp))
+                    TextField(value = verifyCode, onValueChange = { verifyCode = it }, label = { Text("6 Haneli Kod") })
+                    Button(onClick = {
+                        scope.launch {
+                            try {
+                                log("Verifying code...")
+                                val res = RetrofitClient.api.verifyTotp(VerifyRequest(currentUserEmail!!, verifyCode))
+                                if (res.status == "verified") authStep = 2
+                            } catch (e: Exception) {
+                                log("Verify Failed: ${e.message}")
+                            }
+                        }
+                    }) { Text("Doğrula") }
+                }
             2 -> {
                 Text("Başarılı! ✅", style = MaterialTheme.typography.headlineMedium)
             }

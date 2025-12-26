@@ -11,6 +11,7 @@
 
 *   **🔒 Strict Authentication:** Users must authenticate via **Google Sign-In** AND **TOTP Code** (Google Authenticator) on every login. No "remember me" for maximum security.
 *   **🔑 Explicit OAuth Flow:** Forces a Google Account picker (`signOut` before `signIn`) to prevent accidental unauthorized access via cached sessions.
+*   **🚀 Auto-Import:** One-click button to automatically open Google Authenticator (or compatible apps) and import the secret key via `otpauth://` intent. No manual copying needed.
 *   **🌍 Remote Access:** Integrated **Cloudflare Tunnel** support to expose the local Docker backend to the internet for real-device testing without USB cables.
 *   **🐳 Dockerized Stack:** Entire backend (API + DB + Tunnel) runs with a single `docker-compose up` command.
 *   **📱 Modern Android:** Built with **Jetpack Compose**, Retrofit, and Material Design 3.
