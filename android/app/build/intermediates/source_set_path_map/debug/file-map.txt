@@ -1,0 +1,49 @@
+com.example.authapp-jetified-runtime-release-0 C:\Users\user\.gradle\caches\transforms-3\0584e453ac997fc56698f113588b85b8\transformed\jetified-runtime-release\res
+com.example.authapp-jetified-material-icons-core-release-1 C:\Users\user\.gradle\caches\transforms-3\0b6e7b76b271c7014255e05950d1cee9\transformed\jetified-material-icons-core-release\res
+com.example.authapp-core-1.12.0-2 C:\Users\user\.gradle\caches\transforms-3\0c6164a133766282671969823211e484\transformed\core-1.12.0\res
+com.example.authapp-jetified-ui-release-3 C:\Users\user\.gradle\caches\transforms-3\1cd1d198b3e596c6ff629ce217726e06\transformed\jetified-ui-release\res
+com.example.authapp-jetified-material3-1.1.1-4 C:\Users\user\.gradle\caches\transforms-3\1ef0a203b0a7b23e0f84f87b223da1d0\transformed\jetified-material3-1.1.1\res
+com.example.authapp-jetified-ui-unit-release-5 C:\Users\user\.gradle\caches\transforms-3\1f2eb1bf84d6bc2710d57d16c5fdd79e\transformed\jetified-ui-unit-release\res
+com.example.authapp-lifecycle-viewmodel-2.7.0-6 C:\Users\user\.gradle\caches\transforms-3\28abd1776b7bbadba4765fd9c2548dc7\transformed\lifecycle-viewmodel-2.7.0\res
+com.example.authapp-jetified-core-ktx-1.12.0-7 C:\Users\user\.gradle\caches\transforms-3\365a90c44f5a08013737d55361c81648\transformed\jetified-core-ktx-1.12.0\res
+com.example.authapp-jetified-play-services-auth-20.7.0-8 C:\Users\user\.gradle\caches\transforms-3\4631b1def19ed844accc26054cf15c79\transformed\jetified-play-services-auth-20.7.0\res
+com.example.authapp-jetified-annotation-experimental-1.3.0-9 C:\Users\user\.gradle\caches\transforms-3\535f9ed7c081183d6ac799bce0920c0d\transformed\jetified-annotation-experimental-1.3.0\res
+com.example.authapp-jetified-lifecycle-process-2.7.0-10 C:\Users\user\.gradle\caches\transforms-3\562e5627e875632c372ba11deb2286d9\transformed\jetified-lifecycle-process-2.7.0\res
+com.example.authapp-jetified-ui-geometry-release-11 C:\Users\user\.gradle\caches\transforms-3\599429f380737db72140d1edf9cf086e\transformed\jetified-ui-geometry-release\res
+com.example.authapp-jetified-play-services-basement-18.2.0-12 C:\Users\user\.gradle\caches\transforms-3\5e90fbba9a8d3802d7459a8f2557bc0d\transformed\jetified-play-services-basement-18.2.0\res
+com.example.authapp-jetified-lifecycle-livedata-core-ktx-2.7.0-13 C:\Users\user\.gradle\caches\transforms-3\6be35936dc67351da724ac8bfd7c5dcc\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\res
+com.example.authapp-jetified-emoji2-1.4.0-14 C:\Users\user\.gradle\caches\transforms-3\6f6ea9531313ad02e31baebf6bbb9de9\transformed\jetified-emoji2-1.4.0\res
+com.example.authapp-jetified-lifecycle-viewmodel-savedstate-2.7.0-15 C:\Users\user\.gradle\caches\transforms-3\719815485736473ad304cc54ba235bb8\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\res
+com.example.authapp-jetified-ui-text-release-16 C:\Users\user\.gradle\caches\transforms-3\88f7a36cf44a48b9ef4135ece714bc1f\transformed\jetified-ui-text-release\res
+com.example.authapp-jetified-play-services-base-18.0.1-17 C:\Users\user\.gradle\caches\transforms-3\8c83762ff62fb84019c99644d2037650\transformed\jetified-play-services-base-18.0.1\res
+com.example.authapp-jetified-lifecycle-runtime-ktx-2.7.0-18 C:\Users\user\.gradle\caches\transforms-3\9aea1e4c3368e66f24a84ec2270bc3b9\transformed\jetified-lifecycle-runtime-ktx-2.7.0\res
+com.example.authapp-jetified-activity-compose-1.8.2-19 C:\Users\user\.gradle\caches\transforms-3\9bb68b96b3377c6dc0b6836815a7a435\transformed\jetified-activity-compose-1.8.2\res
+com.example.authapp-coordinatorlayout-1.0.0-20 C:\Users\user\.gradle\caches\transforms-3\a017dfa41aab6a202b25a268b9aabbcd\transformed\coordinatorlayout-1.0.0\res
+com.example.authapp-lifecycle-runtime-2.7.0-21 C:\Users\user\.gradle\caches\transforms-3\a570f4d2fa26b31f4de8be01f7909197\transformed\lifecycle-runtime-2.7.0\res
+com.example.authapp-jetified-ui-tooling-preview-release-22 C:\Users\user\.gradle\caches\transforms-3\af74278621521d5f01f449b82bee6b84\transformed\jetified-ui-tooling-preview-release\res
+com.example.authapp-jetified-material-ripple-release-23 C:\Users\user\.gradle\caches\transforms-3\bb56be77a96ff110d27be2a5b7ccdd2f\transformed\jetified-material-ripple-release\res
+com.example.authapp-jetified-animation-release-24 C:\Users\user\.gradle\caches\transforms-3\bcf773d484a16391cc82b00a01b44ac5\transformed\jetified-animation-release\res
+com.example.authapp-jetified-animation-core-release-25 C:\Users\user\.gradle\caches\transforms-3\c2d61c270ec22a60768f6310049024f6\transformed\jetified-animation-core-release\res
+com.example.authapp-jetified-profileinstaller-1.3.0-26 C:\Users\user\.gradle\caches\transforms-3\c535d5820c34d824a1e6bd6b7b8f243c\transformed\jetified-profileinstaller-1.3.0\res
+com.example.authapp-jetified-ui-graphics-release-27 C:\Users\user\.gradle\caches\transforms-3\c553aeaf6be6724459884bc9ed7be40d\transformed\jetified-ui-graphics-release\res
+com.example.authapp-jetified-foundation-layout-release-28 C:\Users\user\.gradle\caches\transforms-3\c5fe9c8b4da7a2b6a9b216f797c5b30f\transformed\jetified-foundation-layout-release\res
+com.example.authapp-jetified-activity-ktx-1.8.2-29 C:\Users\user\.gradle\caches\transforms-3\cee4fd8b59181c3af1a395a056a63b51\transformed\jetified-activity-ktx-1.8.2\res
+com.example.authapp-lifecycle-livedata-core-2.7.0-30 C:\Users\user\.gradle\caches\transforms-3\cee7b7707569dab5fbae084427351cad\transformed\lifecycle-livedata-core-2.7.0\res
+com.example.authapp-jetified-savedstate-1.2.1-31 C:\Users\user\.gradle\caches\transforms-3\d33d40fe833b2eeeea2e365b0d36eb97\transformed\jetified-savedstate-1.2.1\res
+com.example.authapp-jetified-savedstate-ktx-1.2.1-32 C:\Users\user\.gradle\caches\transforms-3\dac3c7aa8a9ba9055d301bef7823f752\transformed\jetified-savedstate-ktx-1.2.1\res
+com.example.authapp-core-runtime-2.2.0-33 C:\Users\user\.gradle\caches\transforms-3\dd51408ed640850fd2315615b2644d7c\transformed\core-runtime-2.2.0\res
+com.example.authapp-lifecycle-livedata-2.7.0-34 C:\Users\user\.gradle\caches\transforms-3\ec4929aa72ea450d4bdb537fc88222af\transformed\lifecycle-livedata-2.7.0\res
+com.example.authapp-jetified-foundation-release-35 C:\Users\user\.gradle\caches\transforms-3\f16ad11e1e9f6a4e046a825f2f5eb1cf\transformed\jetified-foundation-release\res
+com.example.authapp-jetified-runtime-saveable-release-36 C:\Users\user\.gradle\caches\transforms-3\f3dae9235b269a3a4bae810ade4470e9\transformed\jetified-runtime-saveable-release\res
+com.example.authapp-jetified-lifecycle-viewmodel-ktx-2.7.0-37 C:\Users\user\.gradle\caches\transforms-3\f59d8261d6a3437856518d6d6b00a75e\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\res
+com.example.authapp-jetified-activity-1.8.2-38 C:\Users\user\.gradle\caches\transforms-3\f95d4803ee867fcc8a6485a9fea23858\transformed\jetified-activity-1.8.2\res
+com.example.authapp-jetified-customview-poolingcontainer-1.0.0-39 C:\Users\user\.gradle\caches\transforms-3\fb4d2764645b282611ebb05a6f5c8cd1\transformed\jetified-customview-poolingcontainer-1.0.0\res
+com.example.authapp-jetified-startup-runtime-1.1.1-40 C:\Users\user\.gradle\caches\transforms-3\fd7c510ed0b18de7ab5b10cfd24d2b03\transformed\jetified-startup-runtime-1.1.1\res
+com.example.authapp-jetified-ui-util-release-41 C:\Users\user\.gradle\caches\transforms-3\ffb03f78e125b100d9e4173eb4521db9\transformed\jetified-ui-util-release\res
+com.example.authapp-pngs-42 C:\Users\user\Desktop\android auth\android\app\build\generated\res\pngs\debug
+com.example.authapp-resValues-43 C:\Users\user\Desktop\android auth\android\app\build\generated\res\resValues\debug
+com.example.authapp-packageDebugResources-44 C:\Users\user\Desktop\android auth\android\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.authapp-packageDebugResources-45 C:\Users\user\Desktop\android auth\android\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.authapp-merged_res-46 C:\Users\user\Desktop\android auth\android\app\build\intermediates\merged_res\debug
+com.example.authapp-debug-47 C:\Users\user\Desktop\android auth\android\app\src\debug\res
+com.example.authapp-main-48 C:\Users\user\Desktop\android auth\android\app\src\main\res

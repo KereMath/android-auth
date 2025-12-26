@@ -1,0 +1,4 @@
+#Fri Dec 26 12:13:33 TRT 2025
+base.0=C\:\\Users\\user\\Desktop\\android auth\\android\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex
